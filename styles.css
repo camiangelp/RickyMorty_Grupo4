@@ -1,31 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
 }
 
-.button{
-    background-color: rgb(90, 199, 54);
-    color:black;
-    font-weight: bold;
-    border: none;
-    display: block;
-    border-radius: 8px;
-    font-size: 18px;
-    padding: 4px 12px;
-    width: 35%;
-    height: 75px;
-    background-image: url("./assets/portalbtn.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px 20px;
+.cardsList {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
 }
