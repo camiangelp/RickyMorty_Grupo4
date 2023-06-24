@@ -14,7 +14,8 @@ body{
 
 .button{
     background-color: rgb(90, 199, 54);
-    color:white;
+    color:black;
+    font-weight: bold;
     border: none;
     display: block;
     border-radius: 8px;
@@ -22,4 +23,9 @@ body{
     padding: 4px 12px;
     width: 35%;
     height: 75px;
+    background-image: url("./assets/portalbtn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 20px;
 }
