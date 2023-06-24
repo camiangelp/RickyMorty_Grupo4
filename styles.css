@@ -12,6 +12,12 @@ body{
     font-family: sans-serif;
 }
 
-.title{
-    color: rgb(67, 197, 7);
+.button{
+    background-color: palevioletred;
+    color:white;
+    border: none;
+    display: block;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 12px;
 }
