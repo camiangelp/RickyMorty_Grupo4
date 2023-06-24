@@ -13,11 +13,13 @@ body{
 }
 
 .button{
-    background-color: palevioletred;
+    background-color: rgb(90, 199, 54);
     color:white;
     border: none;
     display: block;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: 8px;
+    font-size: 18px;
     padding: 4px 12px;
+    width: 35%;
+    height: 75px;
 }
